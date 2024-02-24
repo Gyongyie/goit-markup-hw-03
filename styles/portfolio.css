@@ -1,0 +1,80 @@
+:root {
+    -- link-color: red;
+    -- text-color;
+    -- text-font-family: "Roboto" sans-serif;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+   }
+
+.global-header a 
+.global-header a:visited {
+    color: var(-- link color);
+}
+
+.global-header li {
+    list-style-type: none;
+}
+
+.logo1::before {
+    content: "Web";
+    color: blue;
+    Width: 115px;
+    Height: 24px;
+}
+
+.global-header {
+    color: #2E2F42;
+
+}
+
+.global-header :hover {
+    color: chartreuse;
+}
+
+.button {
+    Width: 261px;
+    Height: 24px;
+    Gap: 40px;
+    Weight: 500;
+}
+
+.contact1 {
+    color: #E7E9FC;
+    Width: 153px;
+    Height: 24px;
+}
+
+.contact2 {
+    color: #E7E9FC;
+    Width: 151px;
+    Height: 24px;
+}
+
+.button-section {
+    list-style-type:none;
+    background-color:#E7E9FC;
+    color: #4D5AE5;
+    Width: 78px;
+    Height: 48px;
+}
+
+.app-name {
+    weight: 500;
+    color: #2E2F42;
+}
+
+.footer {
+    background-color: black;
+    color: #F4F4FD;
+}
+
+.logo2::before {
+    content: "Web";
+    color: blue;
+}
+
+
+

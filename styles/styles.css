@@ -1,0 +1,104 @@
+:root{
+    -- link-color: red ;
+    -- text-color;
+    -- text-font-family: "Roboto" sans-serif;
+}
+
+.body {
+    font-family: "Roboto",sans-serif;
+    color: #434455
+}
+
+.global-header a
+.global-header a:visited{
+    color: var(-- link color);
+}
+
+.logo1::before {
+    content: "Web";
+    color:blue;
+    Width: 115px;
+    Height: 24px;
+}
+.global-header li {
+    list-style-type: none;
+}
+
+.global-header {
+    color: #2E2F42;
+    
+}
+.global-header :hover {
+   color:chartreuse;
+}
+
+.button {
+    Width: 261px;
+    Height: 24px;
+    Gap: 40px;
+    Weight: 500;
+}
+
+.contact1 {
+    color: #E7E9FC;
+    Width: 153px;
+    Height: 24px;
+}
+
+.contact2 {
+   color: #E7E9FC;
+   Width: 151px;
+   Height: 24px;
+   
+}
+
+.global-section{
+    background-color: black;
+    color:white
+   }
+.title{
+    font-weight: 700;
+    size: 56px;
+    line height: 60px;
+}   
+.buten-order {
+        background-color: #4D5AE5;
+        color: white;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list .enumeration {
+    color:#2E2F42;
+    font-weight: 500;
+}
+.aboute-us {
+   color:#2E2F42 ;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team {
+    color:#2E2F42;
+}
+.team-section .name {
+    color: #2E2F42;
+}
+
+.footer {
+    background-color: black;
+    color: #F4F4FD;
+}
+
+.logo2::before {
+    content: "Web";
+    color: blue;
+}
+
+h2 {
+    weight 700;
+}
