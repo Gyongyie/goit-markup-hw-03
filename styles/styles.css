@@ -16,37 +16,55 @@
 
 .logo1::before {
     content: "Web";
-    color:blue;
-    Width: 115px;
-    Height: 24px;
-}
+    color:blue; 
+    font-weight: 800;  
+   }
+.logo1::after {
+    content: "Studio";
+    color:black;
+    font-weight: 800;
+}   
+
 .global-header li {
     list-style-type: none;
 }
 
 .global-header {
     color: #2E2F42;
-    
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    width: 1444px;
+    height: 72px;
+    border: 1px;
+    margin-block-start: 0%;
+    border: 5px #E7E9F;
+    padding: 24px;
+
 }
-.global-header :hover {
+    .global-header :hover {
    color:chartreuse;
 }
+
 
 .button {
     Width: 261px;
     Height: 24px;
     Gap: 40px;
     Weight: 500;
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 0%;
 }
 
 .contact1 {
-    color: #E7E9FC;
+    color: black;
     Width: 153px;
     Height: 24px;
 }
 
 .contact2 {
-   color: #E7E9FC;
+   color: black;
    Width: 151px;
    Height: 24px;
    
