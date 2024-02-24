@@ -28,7 +28,7 @@
     height: 72px;
     border: 1px;
     margin-block-start: 0%;
-    border: 5px #E7E9F;
+    border: 5px black;
     padding: 24px;
 }
 
@@ -78,13 +78,22 @@
 }
 
 .button-section {
-    list-style-type:none;
+    list-style-type: none;
     background-color:#E7E9FC;
     color: #4D5AE5;
     Width: 78px;
     Height: 48px;
     flex-direction: row;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    
+}
+
+
 
 .app-name {
     weight: 500;

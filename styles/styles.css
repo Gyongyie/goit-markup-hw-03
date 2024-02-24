@@ -9,6 +9,7 @@
     color: #434455
 }
 
+
 .global-header a
 .global-header a:visited{
     color: var(-- link color);
@@ -34,11 +35,11 @@
     background-color: white;
     display:flex;
     justify-content: space-between;
-    width: 1444px;
+    width: 1200px;
     height: 72px;
     border: 1px;
     margin-block-start: 0%;
-    border: 5px #E7E9F;
+    border: 15px #E7E9F;
     padding: 24px;
 
 }
@@ -72,9 +73,13 @@
 
 .global-section{
     background-color: black;
-    color:white
-  
-    }
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
 
 .title{
     font-weight: 700;
@@ -90,34 +95,93 @@
     list-style-type: none;
 }
 
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .list .enumeration {
     color:#2E2F42;
     font-weight: 500;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
+
+.container {
+display: flex;
+justify-content: center;
+width: 1200px;
+}
+
 .aboute-us {
    color:#2E2F42 ;
+   display: flex;
+   justify-content: center; 
+   padding-bottom: 94px;  
 }
+
+
 
 .team-section {
     background-color: #F4F4FD;
+    margin-top: 100px;
+    
 }
 
 .our-team {
     color:#2E2F42;
+    padding-top: 94px;
+    padding-bottom: 94PX;
+    display: flex;
+    justify-content: center;
+    weidth: 700;
 }
+
 .team-section .name {
     color: #2E2F42;
+    background-color: white;
 }
+
+
+
+.date-employer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 94px;
+    
+}
+
+.name {
+    align-items:self-end;
+}
+
 
 .footer {
     background-color: black;
     color: #F4F4FD;
+    padding: 94px;
 }
 
 .logo2::before {
     content: "Web";
     color: blue;
 }
+
+.text {
+    width: 240px;
+    height: 80px;
+    }
+
 
 h2 {
     weight 700;
