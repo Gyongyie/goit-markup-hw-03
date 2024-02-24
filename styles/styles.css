@@ -42,7 +42,7 @@
     padding: 24px;
 
 }
-    .global-header :hover {
+.global-header :hover {
    color:chartreuse;
 }
 
@@ -73,7 +73,9 @@
 .global-section{
     background-color: black;
     color:white
-   }
+  
+    }
+
 .title{
     font-weight: 700;
     size: 56px;
