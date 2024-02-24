@@ -18,8 +18,11 @@
 .logo1::before {
     content: "Web";
     color:blue; 
-    font-weight: 800;  
-   }
+    font-weight: 800;
+    Width: 115px;
+    Height: 24px;
+}
+
 .logo1::after {
     content: "Studio";
     color:black;
@@ -37,7 +40,6 @@
     justify-content: space-between;
     width: 1200px;
     height: 72px;
-    border: 1px;
     margin-block-start: 0%;
     border: 15px #E7E9F;
     padding: 24px;

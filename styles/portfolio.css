@@ -23,10 +23,9 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 1440px;
+    width: 1200px;
     height: 72px;
-    border: 1px;
+    border: 15px;
     margin-block-start: 0%;
     border: 5px black;
     padding: 24px;
@@ -44,10 +43,6 @@
     content: "Studio";
     color: black;
     font-weight: 800;
-
-.global-header {
-    color: #2E2F42;
-
 }
 
 .global-header :hover {
@@ -61,8 +56,7 @@
     Weight: 500;
     display: flex;
     justify-content: space-around;
-    margin-block-start: 0%;
-    flex-direction: row;
+    margin-block-start: 0%;   
   }
 
 .contact1 {
@@ -93,7 +87,16 @@
     
 }
 
-
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 94px;
+    flex-wrap: wrap;
+}
 
 .app-name {
     weight: 500;
@@ -103,11 +106,17 @@
 .footer {
     background-color: black;
     color: #F4F4FD;
+    padding: 94px;
 }
 
 .logo2::before {
     content: "Web";
     color: blue;
+}
+
+.text {
+    width: 240px;
+    height: 80px;
 }
 
 
