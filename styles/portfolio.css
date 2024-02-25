@@ -72,14 +72,22 @@
 }
 
 .button-section {
-    list-style-type: none;
-    background-color:#E7E9FC;
-    color: #4D5AE5;
-    Width: 78px;
-    Height: 48px;
-    flex-direction: row;
+   display: flex;
+     
 }
 
+.list-button {
+    display: flex;
+    justify-content: row;
+    gap: 10px;  
+   
+}
+
+.button {
+   
+    align-items: center;
+  
+}
 .container {
     display: flex;
     justify-content: center;
