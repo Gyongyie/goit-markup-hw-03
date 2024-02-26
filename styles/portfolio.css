@@ -71,9 +71,9 @@
     Height: 24px;
 }
 .button-section {
-    display: flex;
-    color: var(--brand-color);
-    list-style: none;
+   display: flex;
+   color: var(--brand-color);
+   list-style: none;
    justify-content: space-around;
    padding-left: 20px;
 }
@@ -92,10 +92,9 @@
     padding: 12px;
     color: blue;
     background-color: R #E7E9FC;
-
-  
    
 }
+
 .container {
     display: flex;
     justify-content: center;
