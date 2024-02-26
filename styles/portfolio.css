@@ -70,23 +70,31 @@
     Width: 151px;
     Height: 24px;
 }
-
 .button-section {
-   display: flex;
-     
+    display: flex;
+    color: var(--brand-color);
+    list-style: none;
+   justify-content: space-around;
+   padding-left: 20px;
 }
+
 
 .list-button {
     display: flex;
-    justify-content: row;
-    gap: 10px;  
-   
+    justify-content: space-around;
+    gap: 10px;
+    color: blue; 
 }
 
-.button {
+.buttons {
    
     align-items: center;
+    padding: 12px;
+    color: blue;
+    background-color: R #E7E9FC;
+
   
+   
 }
 .container {
     display: flex;

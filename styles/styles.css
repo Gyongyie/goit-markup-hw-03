@@ -31,6 +31,7 @@
 
 .global-header li {
     list-style-type: none;
+    text-decoration: none;
 }
 
 .global-header {
@@ -43,6 +44,7 @@
     margin-block-start: 0%;
     border: 15px #E7E9F;
     padding: 24px;
+    text-decoration: none;
 
 }
 .global-header :hover {
