@@ -50,7 +50,9 @@
 .global-header :hover {
    color:chartreuse;
 }
-
+.linkk {
+    text-decoration: none;
+}
 
 .button {
     Width: 261px;
@@ -66,13 +68,14 @@
     color: black;
     Width: 153px;
     Height: 24px;
+    text-decoration: none;
 }
 
 .contact2 {
    color: black;
    Width: 151px;
    Height: 24px;
-   
+   text-decoration: none;
 }
 
 .global-section{

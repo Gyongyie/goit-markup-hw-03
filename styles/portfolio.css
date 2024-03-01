@@ -37,16 +37,19 @@
     Width: 115px;
     Height: 24px;
     font-weight: 800;
+    text-decoration: none;
 }
 
 .logo1::after {
     content: "Studio";
     color: black;
     font-weight: 800;
+    text-decoration: none;
 }
 
 .global-header :hover {
     color: chartreuse;
+    text-decoration: none;
 }
 
 .button {
@@ -56,19 +59,26 @@
     Weight: 500;
     display: flex;
     justify-content: space-around;
-    margin-block-start: 0%;   
+    margin-block-start: 0%;
+    text-decoration:none;
   }
+
+.linkk {
+    text-decoration: none;
+}
 
 .contact1 {
     color: black;
     Width: 153px;
     Height: 24px;
+    text-decoration: none;
 }
 
 .contact2 {
     color: black;
     Width: 151px;
     Height: 24px;
+    text-decoration: none;
 }
 
 .button-section {
@@ -89,9 +99,23 @@
 .buttons {
    
     align-items: center;
-    padding: 12px;
+  
     color: blue;
     background-color: R #E7E9FC;
+
+    color: var(--links-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border: none;
+    padding: 6px 22px;
+
+.buttons:hover,
+.buttons:focus {
+    background-color: var(--logo-and-hover-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
    
 }
 
